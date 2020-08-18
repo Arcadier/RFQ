@@ -1,0 +1,5 @@
+{
+    "require": {
+        "arcadier/test-packagist-sdk": "^1.3"
+    }
+}

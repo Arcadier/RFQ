@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:300);
+.centerer {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 600px) {
+  .wrap {
+    width: 50%;
+    float: left;
+  }
+}
+
+.btn-container {
+  padding: 2px;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-transition: color 150ms ease-in-out 150ms, border-color 300ms ease-out, -webkit-box-shadow 300ms ease-in-out;
+  transition: color 150ms ease-in-out 150ms, border-color 300ms ease-out, -webkit-box-shadow 300ms ease-in-out;
+  transition: color 150ms ease-in-out 150ms, border-color 300ms ease-out, box-shadow 300ms ease-in-out;
+  transition: color 150ms ease-in-out 150ms, border-color 300ms ease-out, box-shadow 300ms ease-in-out, -webkit-box-shadow 300ms ease-in-out;
+  z-index: 1;
+}
+
+.btn.center {
+  margin: 0 auto;
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #131313;
+  z-index: -1;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 300ms ease-out 200ms;
+  transition: -webkit-transform 300ms ease-out 200ms;
+  transition: transform 300ms ease-out 200ms;
+  transition: transform 300ms ease-out 200ms, -webkit-transform 300ms ease-out 200ms;
+}
+
+.btn:hover {
+  color: white;
+  border-color: #b9b9b9;
+  -webkit-box-shadow: 0 0 16px rgba(255, 255, 255, 0.1);
+          box-shadow: 0 0 16px rgba(255, 255, 255, 0.1);
+}
+
+.btn:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transition: -webkit-transform 300ms ease-out;
+  transition: -webkit-transform 300ms ease-out;
+  transition: transform 300ms ease-out;
+  transition: transform 300ms ease-out, -webkit-transform 300ms ease-out;
+}
+/*# sourceMappingURL=fonts.css.map */
+
+@keyframes Loading{
+	0%{
+		transform:rotate(0deg);
+	}
+	100%{
+		transform:rotate(360deg);
+	}
+}
+
+.Loading{
+    margin: auto;
+    margin-top: 60px;
+	width:100px;
+	height:100px;
+	border:10px solid rgba(255,255,255,.2);
+	border-top:10px solid rgba(255,255,255,1);
+	animation:Loading .5s linear infinite;
+	border-radius:50%;
+}
+  
+  #results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    background-color: #dcd5ec;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    padding: 20px;
+    font-size: 14px;
+    margin: 5px;
+    max-width: 428px;
+    text-align: center;
+  }
+  
+  .item_name,
+  .item_cf,
+  .item_desc{
+    text-align: left;
+    height: 40px;
+  }
+  
+  h1,
+  label,
+  input {
+    font-family: 'Raleway', 'Open Sans', sans-serif;
+    margin: 0;
+    line-height: 1;
+  }
+  
+  .item_name {
+    text-transform: capitalize;
+  }

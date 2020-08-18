@@ -1,0 +1,19 @@
+<?php
+function getAdminToken()
+{
+    $marketplace = 'tanoo.sandbox.arcadier.io';
+    $protocol = 'https';
+    $baseUrl = $protocol . '://' . $marketplace;
+    $client_id = 'l8nmu6B55H8LoMicsebOpxpo8InCiivJNnqgpoa7';
+    $client_secret = 'NjF79jv9vx_uSlpgwSoEiP0e5O90I6kAH3P1PmWWPHEjnQo6KH9';
+    $url = $baseUrl . '/token';
+    $body = 'grant_type=client_credentials&client_id=' . $client_id . '&client_secret=' . $client_secret . '&scope=admin';
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_POST, 1);
+    curl_setopt($curl, CURLOPT_POSTFIELDS, $body);
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+    $result = curl_exec($curl);
+    curl_close($curl);
+    return json_decode($result, true);
+}
