@@ -69,6 +69,7 @@ Once done, zip the `admin`, `user`, and `vendor` folders together and upload the
 * GET `/api/v2/plugins/{{packageID}}/custom-tables/{{custom-table-name}}/`([Get all Custom Table Contents](https://apiv2.arcadier.com/?version=latest#c562617c-9227-40eb-aafb-83c485757371))
 * POST `/api/v2/plugins/{{packageID}}/custom-tables/{{custom-table-name}}/rows`([Create New Row Entry](https://apiv2.arcadier.com/?version=latest#4a9905bd-7054-47b3-b7e9-4d48ffd46fd7))
 * PUT `/api/v2/plugins/{{packageID}}/custom-tables/{{custom-table-name}}/rows/{{rowID}}` ([Edit Row Entry](https://apiv2.arcadier.com/?version=latest#1d3b0075-e065-436e-aa03-407e3f6173a3))
+* GET `/api/v2/users/{{userID}}` ([Get User Information](https://apiv2.arcadier.com/?version=latest#129fa6b1-1c39-4a41-b7b8-8aa7f2545394))
 
 ## API Documentation
 View our full API collection on Postman [here](https://apiv2.arcadier.com). 
