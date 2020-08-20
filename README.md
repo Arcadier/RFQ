@@ -40,7 +40,7 @@ Once a seller chooses to submite a quote for an RFQ, `merchant_accept_RFQ.php` o
 
 ### Video Demo
 <p style="align: center;">
-<a href="https://www.loom.com/share/f38d387dc228471facd1d856fd8d5204"> <p>RFQ flow - Watch Video</p> <img style="max-width:600px;" target="_blank" src="https://cdn.loom.com/sessions/thumbnails/f38d387dc228471facd1d856fd8d5204-with-play.gif"> </a></p>
+<a target="_blank" href="https://www.loom.com/share/f38d387dc228471facd1d856fd8d5204"> <p>RFQ flow - Watch Video</p> <img style="max-width:600px;"  src="https://cdn.loom.com/sessions/thumbnails/f38d387dc228471facd1d856fd8d5204-with-play.gif"> </a></p>
 
 ## Installation
 
