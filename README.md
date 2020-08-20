@@ -2,7 +2,9 @@
 
 A Request For Quotation (RFQ) interface can be created that permits the buyers to request sellers to offer quotes on a particular item or service. This can be done with the correct set of APIs, custom fields and tables which are identified here.
 
-This sample code is a basic example of how an RFQ experience can be created for buyers and sellers of a marketplace. The source code's structure is intended to run on an **Arcadier Marketplace** as a Plug-In.
+This sample code is a **_very_** basic example of how an RFQ experience can be created for buyers and sellers of a marketplace. The source code's structure is intended to run on an **Arcadier Marketplace** as a Plug-In.
+
+The CSS and other UI aspects can be easily modified to match your own requirements.
 
 The same sequence of APIs and user flows and be used to recreate the RFQ UX on an external CMS or external web page.
 
