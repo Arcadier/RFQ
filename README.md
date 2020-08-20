@@ -12,7 +12,7 @@ The same sequence of APIs and user flows and be used to recreate the RFQ UX on a
 ![proposedRFQ-03](https://user-images.githubusercontent.com/43057493/90701586-794be480-e2bb-11ea-8cd4-9304397cdb21.png)
 
 
-The 3 main events of this flow are as follows:
+The 4 main events of this flow are as follows:
 * A buyer logs in with the intention of creating an RFQ
 * A seller logs in with the intention to view new RFQs and submite a quote for one or more of them
 * The buyer logs in to view different quotes submitted by different sellers for their RFQs
