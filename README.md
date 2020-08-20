@@ -39,7 +39,8 @@ One new link and one custom page
 Once a seller chooses to submite a quote for an RFQ, `merchant_accept_RFQ.php` opens up and displays a form to collect data from the seller and save it in a custom table called `accepted_RFQs`.
 
 ### Video Demo
-<a style="text-align:center;" href="https://www.loom.com/share/f38d387dc228471facd1d856fd8d5204"> <p>RFQ flow - Watch Video</p> <img style="max-width:600px;" src="https://cdn.loom.com/sessions/thumbnails/f38d387dc228471facd1d856fd8d5204-with-play.gif"> </a>
+<p style="align: center;">
+<a href="https://www.loom.com/share/f38d387dc228471facd1d856fd8d5204"> <p>RFQ flow - Watch Video</p> <img style="max-width:600px;" target="_blank" src="https://cdn.loom.com/sessions/thumbnails/f38d387dc228471facd1d856fd8d5204-with-play.gif"> </a></p>
 
 ## Installation
 
