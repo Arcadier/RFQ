@@ -4,7 +4,7 @@
     $item_custom_text = $_GET["item_custom_text"];
     $buyer_id = $_GET["buyer_id"];
 
-    require '../vendor/arcadier/test-packagist-sdk/sdk/ApiSdk.php';
+    require '../vendor/arcadier/arcadier-php/sdk/ApiSdk.php';
     $sdk = new ApiSdk();
 
     //save item details in Buyer Created RFQ

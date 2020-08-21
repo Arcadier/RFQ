@@ -1,5 +1,5 @@
 <?php
-    require '../vendor/arcadier/test-packagist-sdk/sdk/ApiSdk.php';
+    require '../vendor/arcadier/arcadier-php/sdk/ApiSdk.php';
     $sdk = new ApiSdk();
 
     $contentBodyJson = file_get_contents('php://input');

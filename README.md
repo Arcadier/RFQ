@@ -49,13 +49,13 @@ Once a seller chooses to submite a quote for an RFQ, `merchant_accept_RFQ.php` o
 ### Composer
 This Plug-In uses Arcadier's PHP SDK to function. You can install SDK via composer using the following command line:
 ```php
-composer require arcadier/test-packagist-sdk
+composer require arcadier/arcadier-php
 ```
 
 
 
 ## 💡 Getting Started
-Once the SDK is installed in your directory, go to `/vendor/arcadier/test-packagist-sdk/sdk/admin_token.php` **and** `/vendor/arcadier/test-packagist-sdk/sdk/ApiSdk.php` and change the following variables to your marketplace's:
+Once the SDK is installed in your directory, go to `/vendor/arcadier/arcadier-php/sdk/admin_token.php` **and** `/vendor/arcadier/arcadier-php/sdk/ApiSdk.php` and change the following variables to your marketplace's:
 * `$client_id`
 * `$client_secret`
 * `$marketplace`
