@@ -1,5 +1,5 @@
 {
     "require": {
-        "arcadier/arcadier-php": "^1.3"
+        "arcadier/arcadier-php": "^1.7"
     }
 }

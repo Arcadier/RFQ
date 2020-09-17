@@ -1,0 +1,9 @@
+{
+    "name": "arcadier/arcadier-php",
+    "description": "Arcadier's PHP SDK",
+    "keywords": ["arcadier","marketplace","sdk","ecommerce"],
+    "require": {
+        "php": "^7.0.0",
+        "vlucas/phpdotenv": "^5.2"
+    }
+}

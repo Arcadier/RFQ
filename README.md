@@ -55,15 +55,9 @@ composer require arcadier/arcadier-php
 
 
 ## 💡 Getting Started
-Once the SDK is installed in your directory, go to `/vendor/arcadier/arcadier-php/sdk/admin_token.php` **and** `/vendor/arcadier/arcadier-php/sdk/ApiSdk.php` and change the following variables to your marketplace's:
-* `$client_id`
-* `$client_secret`
-* `$marketplace`
-* `$protocol` either `https` or `http` depending on your server
+Once the SDK is installed in your directory, find the `.env` file in the `vendor/arcadier/arcadier-php/src` and input the values that are empty.
 
-`$marketplace` is your marketplace domain.
 
-`$client_id` and `$client_secret` are found in the Account Settings of you Administrator portal.
 
 Once done, zip the `admin`, `user`, and `vendor` folders together and upload them to your [sandbox dashboard](https://dashboard.sandbox.arcadier.io) to view the plug-in at work.
 

@@ -1,5 +1,5 @@
 <?php
-    require '../vendor/arcadier/arcadier-php/sdk/ApiSdk.php';
+    require '../vendor/arcadier/arcadier-php/sdk/api.php';
     $sdk = new ApiSdk();
 
     $tableName = 'Submitted_RFQs';
