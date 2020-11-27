@@ -60,7 +60,7 @@ Request: Categories
 
 #### Seller custom table (Submitted Category Requests):
 |Request_ID|Seller_ID|Category_name|Category_purpose|Buyer_visible|Seller_Vsible|Company_visible|Specific_user_visible|
-|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|
 |||||||||
 
 This table is filled up with the data coming from the new page/form created for the seller to fill up. The API used to fill this table up is our [Custom Table API]().
@@ -69,7 +69,7 @@ On the new seller page, the UI performs `GET` API calls to find requests he has 
 
 #### Admin custom table (Accepted Category Requests):
 |Request_ID|Seller_ID|Message|Status|New_category_ID|
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|
 |||||||
 
 If the seller decides to accepts/rejects one, the buyer's custom table's column `status` is updated to indicate to the buyer that his/her RFQ has been accepted/rejected.
