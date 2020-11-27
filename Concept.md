@@ -22,7 +22,8 @@ Party A and Party B can be any of the roles: Buyer, Seller, or Admin
 
 ### Developement work:
 * Create a new page that displays a form for **Party A** to fill up
-* Create relevant custom tables for each scenario. Each field that **Party A** fills up corresponds to a column in the custom table.
+* Create relevant custom tables for each scenario. 
+* Each field that **Party A** fills up corresponds to a column in the custom table. So, the developer needs to figure out the complete set of fields required by the project before creating the table.
 * Create a new page for **Party B** that queries the table mentionned above for any requests to be reviewed
 
 ### Example 1: RFQ
