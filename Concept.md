@@ -42,7 +42,7 @@ On the new seller page, the UI performs `GET` API calls to find RFQs he has **no
 
 #### Seller custom table (Accepted RFQs):
 |RFQ_ID|Buyer_ID|Seller_ID|Message|Price|status|
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
 |||||||
 
 If the seller decides to accepts/rejects one, the buyer's custom table's column `status` is updated to indicate to the buyer that his/her RFQ has been accepted/rejected.
