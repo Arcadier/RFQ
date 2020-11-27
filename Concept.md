@@ -60,7 +60,7 @@ Request: Categories
 
 #### Seller custom table (Submitted Category Requests):
 |Request_ID|Seller_ID|Category_name|Category_purpose|Buyer_visible|Seller_Vsible|Company_visible|Specific_user_visible|
-|---|---|---|---|---|---|---|--|
+|---|---|---|---|---|---|---|---|---|
 |||||||||
 
 This table is filled up with the data coming from the new page/form created for the seller to fill up. The API used to fill this table up is our [Custom Table API]().
