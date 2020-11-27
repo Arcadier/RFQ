@@ -1,6 +1,6 @@
 Creating requests to be reviewed by a second party
 ===
-The concept of Requests for Quotation (RFQ) is very simple. The concept below describes an RFQ from Buyer to Seller, and Requests for New Category from Seller to Admin. The same concept can be extended to **Request for User Information Update from Seller to Admin**, **Request for Company Change from Buyer to Admin**
+ The concept below describes an RFQ from Buyer to Seller, and Requests for New Category from Seller to Admin. The same concept can be extended to **Request for User Information Update from Seller to Admin**, **Request for Company Change from Buyer to Admin**
 
 ### Main concept:
 Party A and Party B can be any of the roles: Buyer, Seller, or Admin
