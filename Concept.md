@@ -2,7 +2,7 @@ Creating requests to be reviewed by a second party
 ===
 The concept of Requests for Quotation (RFQ) is very simple. The concept below describes an RFQ from Buyer to Seller, and Requests for New Category from Seller to Admin. The same concept can be extended to **Request for User Information Update from Seller to Admin**, **Request for Company Change from Buyer to Admin**
 
-##### Main concept:
+### Main concept:
 Party A and Party B can be any of the roles: Buyer, Seller, or Admin
 
 * **Party A** requests information.
@@ -20,7 +20,7 @@ Party A and Party B can be any of the roles: Buyer, Seller, or Admin
 * **Party A** accepts/declines response
   * Response in saved in a "**Party A** History"
 
-##### Developement work:
+### Developement work:
 * Create a new page that displays a form for **Party A** to fill up
 * Create relevant custom tables for each scenario. Each field that **Party A** fills up corresponds to a column in the custom table.
 * Create a new page for **Party B** that queries the table mentionned above for any requests to be reviewed
