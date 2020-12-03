@@ -32,9 +32,9 @@ Party B: Seller
 Request: Quotations
 
 #### Buyer custom table (Submitted RFQs):
-|RFQ_ID|Buyer_ID|Item_ID|Message|Status|is_trial_batch|status|
-|---|---|---|---|---|---|---|
-|||||||||
+|RFQ_ID|Buyer_ID|Item_ID|CHannel ID|Message|Status|is_trial_batch|status|
+|---|---|---|---|---|---|---|---|
+||||||||||
 
 This table is filled up with the data coming from the new page/form created for the buyer to fill up. The API used to fill this table up is our [Custom Table API]().
 
