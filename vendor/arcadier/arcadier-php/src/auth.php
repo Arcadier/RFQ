@@ -1,6 +1,6 @@
 <?php
     // namespace Arcadier;
-    require "vendor/autoload.php";
+    require dirname(__FILE__,4) . "/autoload.php";
 
     $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
     $dotenv->load();

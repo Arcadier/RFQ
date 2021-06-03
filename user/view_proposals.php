@@ -3,9 +3,21 @@
 <link rel="stylesheet" href="/css/style.css">
 <!-- end header -->
 
-<h1 style="text-align: center;">Proposals submitted by merchants</h1>
-
-<div id="proposals"></div>
+<div class="seller-titlearea">
+    <div class="container">
+        <div class="row">
+            <h1>
+                <span class="text-capitalize"><strong>View Proposals</strong></span>
+            </h1>
+        </div>
+    </div>
+</div>
+<div class="grey_section">
+<div class="container">
+    <div class="row" id="proposals">
+    </div>
+</div>
+</div>
 
 <!-- begin footer -->
 <script src="scripts/retrieve_proposals.js"></script>

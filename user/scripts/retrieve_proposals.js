@@ -1,10 +1,10 @@
-(function() {
-    var scriptSrc = document.currentScript.src;
-    var packagePath = scriptSrc.replace('/scripts/scripts.js', '').trim();
-    var re = /([a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12})/i;
-    var packageId = re.exec(scriptSrc.toLowerCase())[1];
-    var hostname = window.location.hostname;
+var scriptSrc = document.currentScript.src;
+var packagePath = scriptSrc.replace('/scripts/scripts.js', '').trim();
+var re = /([a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12})/i;
+var packageId = re.exec(scriptSrc.toLowerCase())[1];
+var hostname = window.location.hostname;
 
+(function() {
     var settings = {
         "url": "https://"+hostname+"/user/plugins/" + packageId + "/retrieve_proposals.php",
         "data": JSON.stringify({"buyer_id": $("#userGuid").val()}),
@@ -13,7 +13,6 @@
     };
 
     $.ajax(settings).done(function(response){
-        console.log(response);
         document.getElementById("proposals").innerHTML = response;    
     });
 
@@ -31,5 +30,6 @@ function changeStatus(id){
 
     $.ajax(settings).done(function (response) {
         console.log(response);
+        toastr.success("Quotation Accepted", "Success");
     });
 }

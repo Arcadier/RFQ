@@ -1206,5 +1206,11 @@ class ApiSdk
         $emailResult = $this->callAPI("POST", $this->adminToken['access_token'], $url, $data);
         return $emailResult;
     }
+
+    public function getPackageID() {
+        $requestUri = "$_SERVER[REQUEST_URI]";
+        preg_match('/([a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12})/', $requestUri, $matches, 0);
+        return $matches[0];
+    }
 }
 ?>

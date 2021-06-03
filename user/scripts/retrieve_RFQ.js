@@ -13,7 +13,6 @@
         "async": false
     };
     $.ajax(settings).done(function(response){
-        console.log(response);
         document.getElementById("results").innerHTML = response;    
     });
 

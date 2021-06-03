@@ -7,7 +7,7 @@
 
     $("#submit_quote").click(function(){
         var price = $("input#price").val();
-        var message = $("input#message").val();
+        var message = $("message").val();
         var rfq_id = $("input#rfq_id").val();
         var merchant_id = $("#userGuid").val();
 
